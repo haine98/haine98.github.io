@@ -1,0 +1,87 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 500px; 
+  padding: 0 10px;
+}
+
+.header h1 {
+  color: #703427;
+  letter-spacing: 18px;
+  text-align: center; 
+  line-height: 100px; 
+  font-size: 80px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+
+.header p {
+  color: #703427;
+  text-align: center; 
+  font-weight: 500;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-transform: uppercase; 
+}
+
+.nav { 
+  text-align: center; 
+  background: #000;
+  height: 80px; 
+  width: 100%;
+}
+
+.nav ul {
+  font-size: 15px;
+  height: 80px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block; 
+  height: 80px;
+  line-height: 80px; 
+  list-style: none;
+  padding: 0 50px;
+  transition: background .5s; 
+}
+
+.btn:hover, .nav ul li:hover {
+  background: #703427;
+  cursor: pointer; 
+  transition: background .5s;  
+}
+
+
+.home img {
+  display: block;
+  width: 100%;
+  margin: 50px auto;
+  max-width:964px;
+  height:auto;
+}
+
+.home p {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 50;
+  line-height: 2;
+  letter-spacing: 3px;
+  font-size: 16px;
+  margin: 100px;
+}
