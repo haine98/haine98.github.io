@@ -1,0 +1,60 @@
+HTML notes
+<p> new paragraph
+	<p id="top"> This is top! </p>
+<h1> heading
+	<h1> is the biggest <h6> is the smallest
+	<h1 id="bottom">This is bottom! </h1>
+<a href="http://www.somewebsite.com">WRITE DESCRIPTION CLICK HERE</a>
+	<a href="WEBSITELINK" target="_blank"><img src="IMAGELINK" alt="lala"/></a>
+	<a href="./contact.html">Contact</a>
+<img src="http://www.picturewebsite.com/picture.jpg"/>
+	<img src="image link" alt="DESCRIPTION OF IMAGE" />
+<video src="video link" width="320" height="240" controls> hello hello </video>
+<nav>
+
+<br /> is a line break
+<!--COMMENT--> comments
+<div id="something">
+<em> italic
+<strong> bold
+
+<ul> making an unordered list
+	<li>SOME</li>
+	<li>SOME2</li>
+</ul>
+
+<ol> making an ordered list
+	<li>SOME</li>
+	<li>SOME2</li>
+</ol>
+
+<script type="text/javascript" src="script.js"> </script>
+<button onclick="sayHello('world')">Click Me </button>
+	function sayHello(name) {
+		alert('Hello ' + name + '!')
+	}
+
+Letting people type into text box
+<form name="myTravelForm">
+<label>First Name:</label>
+<input type="text" name="firstname" />
+</form>
+
+Letting people choose between drop menu
+<select name="destination">
+	<option value="Antarctica">Antarctica</option>
+	<option value="Costa Rica">Costa Rica</option>
+	<option value="Hi">Hi</option>
+</select>
+
+Making a button
+<input type="button" value="Add this traveler" onClick="processTravelForm()" />
+
+Form
+<form name="tempForm">
+	<input type="button" value="Convert" onclick="processForm()"><br>
+	<label for="temp">Temperature:</label>
+	<input type="text" id="temp" /><br>
+	<label for="resultField">Result:</label>
+	<input type="text" id="resultField" />
+</form>
